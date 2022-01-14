@@ -1,1 +1,2 @@
 # design-teardown
+This is a project that docuses on typography and design, using a heatmap to lay out the elements of the popular design magazine, "Smashing Magazine." I wiill also practice working on my typography, and this project will help to hone my overall skills when it comes to semantics and design.

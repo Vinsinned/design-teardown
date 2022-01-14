@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="topNav"></div>
+        <div class="bottomNav"></div>
+    </nav>
+    <main>
+        <section class="posts">
+            <article class="mainPost">
+                <h3 class="mainPostAuthor"></h3>
+                <img class="mainPostImage" alt="Author Image" src="">
+                <div class="mainPostNav"></div>
+                <p class="mainPostExcerpt"></p>
+                <p class="keepReading"></p>
+            </article>
+            <article class="mainPost">
+                <img class="mainPostImage" alt="Author Image" src="">
+                <div class="mainPostNav"></div>
+            </article>
+            <article class="mainPost">
+                <img class="mainPostImage" alt="Author Image" src="">
+                <div class="mainPostNav"></div>
+            </article>
+        </section>
+        <form class="newsletter">
+            <img class="newsletterImage" alt="Mascot" src="">
+            <button type="button" class="newsletterButton"></button>
+            <h2 class="newsletterHeading"></h2>
+            <p class="newsletterPara"></p>
+            <div class="newsletterInputDiv">
+                <input type="email" class="newsletterInput" placeholder="Your Email">
+                <button type="submit" class="newsletterSubmit">Meow!</button>
+            </div>
+            <p class="formFooter"></p>
+        </form>
+        <section class="gridCards">
+            <div class="gridElement">
+                <h2 class="gridHeading"></h2>
+                <p class="gridPara"></p>
+                <button class="gridButton"></button>
+            </div>
+            <div class="gridElement">
+                <h2 class="gridHeading"></h2>
+                <p class="gridPara"></p>
+                <button class="gridButton"></button>
+            </div>
+            <div class="gridElement">
+                <h2 class="gridHeading"></h2>
+                <p class="gridPara"></p>
+                <button class="gridButton"></button>
+            </div>
+            <div class="loadMore">
+                <a></a>
+            </div>
+        </section>
+        <section class="latestPosts">
+            <h4 class="smallHeading"></h4>
+            <div class="latestPost">
+                <div class="latestPostNav">
+                    <img class="latestPostsImage" alt="Author Image" src="">
+                    <span class="latestAuthorName"></span>
+                </div>
+                <h2 class="latestPostHeading"></h2>
+                <p class="latestPostPara"></p>
+                <div class="latestPostFooter"></div>
+            </div>
+            <div class="latestPost">
+                <div class="latestPostNav">
+                    <img class="latestPostsImage" alt="Author Image" src="">
+                    <span class="latestAuthorName"></span>
+                </div>
+                <h2 class="latestPostHeading"></h2>
+                <p class="latestPostPara"></p>
+                <div class="latestPostFooter"></div>
+            </div>
+            <div class="latestPost">
+                <div class="latestPostNav">
+                    <img class="latestPostsImage" alt="Author Image" src="">
+                    <span class="latestAuthorName"></span>
+                </div>
+                <h2 class="latestPostHeading"></h2>
+                <p class="latestPostPara"></p>
+                <div class="latestPostFooter"></div>
+            </div>
+            <div class="latestPost">
+                <div class="latestPostNav">
+                    <img class="latestPostsImage" alt="Author Image" src="">
+                    <span class="latestAuthorName"></span>
+                </div>
+                <h2 class="latestPostHeading"></h2>
+                <p class="latestPostPara"></p>
+                <div class="latestPostFooter"></div>
+            </div>
+            <div class="seeMoreLatest"></div>
+        </section>
+        <section class="smashingBooks">
+            <h2 class="smashingBooksHeading"></h2>
+            <h3 class="smashingBooksSubheading"></h3>
+            <img class="smashingBooksImage" alt="Mascot" src="">
+            <p class="promoTitle"></p>
+            <p class="promoPara"></p>
+            <button type="button" class="promoButton"></button>
+            <small class="shippingInfo"></small>
+        </section>
+        <section class="smashingWorkshop">
+            <span class="workshopDates"></span>
+            <h2 class="workshopHeading"></h2>
+            <p class="workshopPara"></p>
+            <button type="button" class="workshopButton"></button>
+        </section>
+        <section class="communityLinks">
+            <h4 class="communityLinksHeading"></h4>
+            <div class="personOfTheWeek">
+                <img class="personImage" alt="Eric Eggert" src="">
+                <h4 class="personHeading"></h4>
+                <p class="personPara"></p>
+            </div>
+            <div class="communityPost">
+                <div class="communityNav">
+                    <img class="communityImage" alt="Author Image" src="">
+                    <span class="communityAuthor"></span>
+                </div>
+                <h2 class="communityHeader"></h2>
+                <p class="communityPara"></p>
+            </div>
+            <div class="communityPost">
+                <div class="communityNav">
+                    <img class="communityImage" alt="Author Image" src="">
+                    <span class="communityAuthor"></span>
+                </div>
+                <h2 class="communityHeader"></h2>
+                <p class="communityPara"></p>
+            </div>
+            <div class="communityPost">
+                <div class="communityNav">
+                    <img class="communityImage" alt="Author Image" src="">
+                    <span class="communityAuthor"></span>
+                </div>
+                <h2 class="communityHeader"></h2>
+                <p class="communityPara"></p>
+            </div>
+            <div class="communityPost">
+                <div class="communityNav">
+                    <img class="communityImage" alt="Author Image" src="">
+                    <span class="communityAuthor"></span>
+                </div>
+                <h2 class="communityHeader"></h2>
+                <p class="communityPara"></p>
+            </div>
+            <span class="moreLinks"></span>
+        </section>
+    </main>
+    <footer>
+        <h4 class="footerHeading"></h4>
+        <div class="links"></div>
+        <div class="footerStory"></div>
+        <div class="footerLinks"></div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,449 @@
+/*media query for portrait tablet*/
+/* top level */
+body {
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+.topNav {
+    width: 100%;
+    height: 5.625rem;
+    background-color: #393941;
+}
+.bottomNav {
+    width: 100%;
+    height: 3.75rem;
+    background-color: #58585F;
+}
+
+/* main */
+main {
+    width: 95%;
+    margin: auto;
+}
+/* main post */
+.mainPost {
+    width: 100%;
+    margin-top: 3rem;
+}
+.mainTop {
+    display: flex;
+    height: auto;
+}
+.mainPostImage {
+    width: 35%;
+    margin-right: 2rem;
+    background-color: #3D3D42;
+}
+.mainTopRight {
+    width: 100%;
+}
+.mainPostAuthor {
+    width: 5rem;
+    height: 1rem;
+    background-color: #88898D;
+}
+.mainPostHeading {
+    width: 18rem;
+    height: 5rem;
+    background-color: #49494E;
+}
+.mainPostNav {
+    width: 15rem;
+    height: 1rem;
+    background-color: #88898D;
+}
+.mainPostExcerpt {
+    height: 6rem;
+    background-color: #919399;
+}
+.keepReading {
+    width: 10rem;
+    height: 1.5rem;
+    margin: calc(1em + .5vw) 0;
+    background-color: #8F8F94;
+    margin-bottom: 3rem;
+}
+
+/* subpost */
+.mainSubpost {
+    display: flex;
+    width: 100%;
+    margin-bottom: 3em;
+}
+.mainSubpostImage {
+    width: 25%;
+    margin-right: 1.5rem;
+    background-color: #43434B;
+}
+.mainSubpostContainer {
+    width: 100%;
+}
+.mainSubpostNav {
+    height: 1.5rem;
+    background-color: #94949C;
+}
+.mainSubpostHeading {
+    height: 3.5rem;
+    background-color: #56565E;
+}
+
+/* newsletter */
+.newsletter {
+    margin-top: 1.25rem;
+    margin-bottom: 2rem;
+}
+.newsletter * {
+    margin: auto;
+}
+.mascotContainer {
+    display: flex;
+    width: 16rem;
+    height: 16rem;
+    margin-bottom: 1rem;
+}
+.newsletterImage {
+    width: 100%;
+    height: 100%;
+    border-radius: 9999px;
+    background-color: #35353B;
+}
+.newsletterButton {
+    display: block;
+    width: 16rem;
+    height: 2.5rem;
+    margin: auto;
+    background-color: #5B5B64;
+}
+.newsletterHeading {
+    width: 90%;
+    height: 3.5rem;
+    margin-top: 1.25em;
+    background-color: #4A4A51;
+}
+.newsletterPara {
+    width: 92%;
+    height: 4rem;
+    margin-top: calc(1em + .5vw);
+    margin-bottom: calc(1em + .5vw);
+    background-color: #9898A2;
+}
+.newsletterInputDiv {
+    width: 23rem;
+    height: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #494951;
+}
+.newsletterInput {
+    box-sizing: border-box;
+    width: 60%;
+    height: 3rem;
+    background-color: #494951;
+}
+.newsletterSubmit {
+    width: 40%;
+    height: 100%;
+    background-color: #494951;
+}
+.formFooter {
+    width: 16rem;
+    height: 1rem;
+    margin-top: 0.625rem;
+    background-color: #DFDFE7;
+}
+
+/* grids */
+.grids {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap: 0 1.5em;
+}
+.gridElement {
+    margin: 1.5em 0;
+    padding: calc(2rem + .5vw);
+    background-color: #E7E7EF;
+}
+.gridHeading {
+    height: 3rem;
+    margin: auto;
+    background-color: #4B4B53;
+}
+.gridPara {
+    height: 8rem;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: #868692;
+}
+.gridButton {
+    height: 3rem;
+    margin: auto;
+    margin-top: 2rem;
+    width: 100%;
+    background-color: #3E3E46;
+}
+.loadMore {
+    width: 10rem;
+    height: 1.5rem;
+    margin: auto;
+    padding: 1em 0 6em;
+    display: flex;
+}
+.loadMorePara {
+    width: 100%;
+    background-color: #6A6A79;
+}
+
+/* latest posts */
+.smallHeading {
+    width: 15rem;
+    height: 1rem;
+    background-color: #B0B0B7;
+}
+.latestPosts {
+    width: 100%;
+}
+.latestPost {
+    display: flex;
+    margin-bottom: 2em;
+}
+.latestPostsImage {
+    width: 15%;
+    height: 6rem;
+    margin-right: 1rem;
+    background-color: #44444B;
+}
+.latestRight {
+    width: 100%;
+}
+.latestAuthorName {
+    width: 10rem;
+    height: 1rem;
+    background-color: #6D6D78;
+}
+.latestPostHeading {
+    width: 80%;
+    height: 2.5rem;
+    background-color: #393946;
+}
+.latestPostPara {
+    height: 5rem;
+    background-color: #686870;
+}
+.latestPostFooter {
+    width: 85%;
+    height: 1rem;
+    background-color: #888895;
+}
+.seeMoreLatest {
+    width: 14rem;
+    height: 1rem;
+    margin: auto;
+    padding: 0 0 5em;
+    display: flex;
+}
+.seeLatestPara {
+    width: 100%;
+    height: 1.5rem;
+    background-color: #6A6A79;
+}
+
+/* smashing books */
+.smashingBooks {
+    margin-top: 4em;
+    margin-bottom: 4em;
+    box-sizing: border-box;
+    text-align: center;
+}
+.smashingBooks * {
+    margin: auto;
+}
+.booksHeadings {
+    margin-bottom: 20px!important;
+    padding-bottom: 20px!important;
+}
+.smashingBooksHeading {
+    width: 70%;
+    height: 2.5rem;
+    background-color: #33333B;
+}
+.smashingBooksSubheading {
+    height: 2rem;
+    margin-top: 10px;
+    margin-bottom: 0.75em;
+    background-color: #4C4C58;
+}
+.booksImageContainer {
+    display: flex;
+    width: 16rem;
+    height: 16rem;
+}
+.smashingBooksImage {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-color: #2D2D33;
+}
+.promoTitle {
+    width: 13rem;
+    height: 2rem;
+    margin-top: 1.25em;
+    background-color: #505058;
+}
+.promoPara {
+    height: 3.5rem;
+    margin-top: calc(1em + 0.5vw);
+    background-color: #88888E;
+}
+.promoButton {
+    width: 15rem;
+    height: 4rem;
+    margin-top: calc(1em + 0.5vw);
+    background-color: #47474B;
+}
+.shippingInfo {
+    width: 15rem;
+    height: 1rem;
+    margin-top: calc(0.5em + 0.5vw);
+    background-color: #C8C8CC;
+}
+
+/* smashing workshop */
+.smashingWorkshop {
+    text-align: center;
+    padding: 3.5em 0;
+}
+.smashingWorkshop * {
+    border: 1px solid black;
+    margin: auto;
+}
+.workshopDates {
+    width: 50%;
+    height: 1rem;
+    margin-bottom: 1.87em;
+    background-color: #B1B1B7;
+}
+.workshopHeading {
+    width: 50%;
+    height: 4rem;
+    padding: 20px 0 25px 0;
+    background-color: #444448;
+}
+.workshopPara {
+    height: 5rem;
+    margin: 1em auto 2em;
+    background-color: #79797E;
+}
+.workshopButton {
+    width: 45%;
+    height: 3rem;
+    background-color: #75757D;
+}
+
+/* community links */
+.communityLinksHeading {
+    width: 15rem;
+    height: 1rem;
+    background-color: #B0B0B7;
+}
+/* person of the week */
+.personOfTheWeek {
+    width: 100%;
+    display: flex;
+    margin-bottom: 3em;
+}
+.personImage {
+    width: 70%;
+    height: 15rem;
+    margin-right: 2rem;
+    background-color: #2E2E33;
+}
+.personFlexRight {
+    width: 100%;
+}
+.personHeading {
+    width: 13rem;
+    height: 1rem;
+    background-color: #82828C;
+}
+.personPara {
+    width: 85%;
+    height: 20rem;
+    background-color: #4B4B51;
+}
+/* community posts */
+.communityPost {
+    display: flex;
+    margin-bottom: 3em;
+}
+.communityImage {
+    width: 15%;
+    height: 5rem;
+    margin-right: 1rem;
+    background-color: #696971;
+}
+.communityRight {
+    width: 100%;
+}
+.communityAuthor {
+    width: 13rem;
+    height: 1rem;
+    background-color: #ACACB0;
+}
+.communityHeader {
+    width: 18rem;
+    height: 2.5rem;
+    background-color: #45454B;
+}
+.communityPara {
+    height: 6rem;
+    background-color: #626266;
+}
+.moreLinks {
+    width: 15rem;
+    height: 1rem;
+    margin: auto;
+    padding: 1em 0 5em;
+    display: flex;
+}
+.moreLinksPara {
+    width: 100%;
+    height: 1.5rem;
+    background-color: #B0B0B7;
+}
+
+/* Footer */
+footer {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+footer * {
+    border: 1px solid black;
+    margin: auto;
+}
+.footerHeading {
+    width: 40%;
+    height: 1rem;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: #C2C2C9;
+}
+.links {
+    width: 80%;
+    height: 17rem;
+    margin-bottom: 4rem;
+    background-color: #2F2F34;
+}
+.footerStory {
+    width: 45%;
+    height: 8rem;
+    margin-bottom: 1.5rem;
+    background-color: #59595E;
+}
+.footerLinks {
+    width: 48%;
+    height: 5rem;
+    background-color: #8A8A8F;
+}
